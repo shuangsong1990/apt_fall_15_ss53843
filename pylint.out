@@ -1,0 +1,229 @@
+************* Module Experiment
+Experiment.py:4: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+Experiment.py:5: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+Experiment.py:7: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+Experiment.py:8: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+Experiment.py:9: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+Experiment.py:9: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+Experiment.py:10: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 12
+Experiment.py:11: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+Experiment.py:12: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+Experiment.py:1: [C0111(missing-docstring), ] Missing module docstring
+Experiment.py:7: [W0622(redefined-builtin), largest] Redefining built-in 'max'
+Experiment.py:3: [W0622(redefined-builtin), largest] Redefining built-in 'list'
+Experiment.py:3: [C0111(missing-docstring), largest] Missing function docstring
+Experiment.py:12: [W0101(unreachable), largest] Unreachable code
+Experiment.py:1: [W0611(unused-import), ] Unused import sys
+************* Module ExperimentTest
+ExperimentTest.py:6: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:7: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:7: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:7: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([1,1,1]) 
+                              ^
+ExperimentTest.py:7: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([1,1,1]) 
+                                ^
+ExperimentTest.py:8: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:10: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:11: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:11: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:11: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,1]) 
+                              ^
+ExperimentTest.py:11: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,1]) 
+                                ^
+ExperimentTest.py:12: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:14: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:15: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:15: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:15: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,3]) 
+                              ^
+ExperimentTest.py:15: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,3]) 
+                                ^
+ExperimentTest.py:16: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:18: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:19: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:19: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:19: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,3,4]) 
+                              ^
+ExperimentTest.py:19: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,3,4]) 
+                                ^
+ExperimentTest.py:19: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,2,3,4]) 
+                                  ^
+ExperimentTest.py:20: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:22: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:23: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:23: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,-2,3,-1,4]) 
+                              ^
+ExperimentTest.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,-2,3,-1,4]) 
+                                 ^
+ExperimentTest.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,-2,3,-1,4]) 
+                                   ^
+ExperimentTest.py:23: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([3,-2,3,-1,4]) 
+                                      ^
+ExperimentTest.py:24: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:26: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:27: [C0303(trailing-whitespace), ] Trailing whitespace
+ExperimentTest.py:27: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:27: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([-3,-2,-3,-1,-4]) 
+                               ^
+ExperimentTest.py:27: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([-3,-2,-3,-1,-4]) 
+                                  ^
+ExperimentTest.py:27: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([-3,-2,-3,-1,-4]) 
+                                     ^
+ExperimentTest.py:27: [C0326(bad-whitespace), ] Exactly one space required after comma
+    r1 = Experiment.largest([-3,-2,-3,-1,-4]) 
+                                        ^
+ExperimentTest.py:28: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+ExperimentTest.py:34: [W0311(bad-indentation), ] Bad indentation. Found 2 spaces, expected 4
+ExperimentTest.py:1: [C0111(missing-docstring), ] Missing module docstring
+ExperimentTest.py:4: [C0111(missing-docstring), MyTestCase] Missing class docstring
+ExperimentTest.py:6: [C0111(missing-docstring), MyTestCase.test_t1] Missing method docstring
+ExperimentTest.py:7: [C0103(invalid-name), MyTestCase.test_t1] Invalid variable name "r1"
+ExperimentTest.py:10: [C0111(missing-docstring), MyTestCase.test_t2] Missing method docstring
+ExperimentTest.py:11: [C0103(invalid-name), MyTestCase.test_t2] Invalid variable name "r1"
+ExperimentTest.py:14: [C0111(missing-docstring), MyTestCase.test_t3] Missing method docstring
+ExperimentTest.py:15: [C0103(invalid-name), MyTestCase.test_t3] Invalid variable name "r1"
+ExperimentTest.py:18: [C0111(missing-docstring), MyTestCase.test_t4] Missing method docstring
+ExperimentTest.py:19: [C0103(invalid-name), MyTestCase.test_t4] Invalid variable name "r1"
+ExperimentTest.py:22: [C0111(missing-docstring), MyTestCase.test_t5] Missing method docstring
+ExperimentTest.py:23: [C0103(invalid-name), MyTestCase.test_t5] Invalid variable name "r1"
+ExperimentTest.py:26: [C0111(missing-docstring), MyTestCase.test_t6] Missing method docstring
+ExperimentTest.py:27: [C0103(invalid-name), MyTestCase.test_t6] Invalid variable name "r1"
+
+
+Report
+======
+34 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |6      |6          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    Experiment (ExperimentTest)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |32     |82.05 |32       |=          |
++----------+-------+------+---------+-----------+
+|docstring |1      |2.56  |1        |=          |
++----------+-------+------+---------+-----------+
+|comment   |2      |5.13  |2        |=          |
++----------+-------+------+---------+-----------+
+|empty     |4      |10.26 |4        |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |40     |40       |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |31     |31       |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++---------------+------+--------+---------+-----------+
+|module         |error |warning |refactor |convention |
++===============+======+========+=========+===========+
+|ExperimentTest |0.00  |61.29   |0.00     |92.50      |
++---------------+------+--------+---------+-----------+
+|Experiment     |0.00  |38.71   |0.00     |7.50       |
++---------------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++--------------------+------------+
+|message id          |occurrences |
++====================+============+
+|bad-indentation     |27          |
++--------------------+------------+
+|bad-whitespace      |17          |
++--------------------+------------+
+|missing-docstring   |10          |
++--------------------+------------+
+|trailing-whitespace |6           |
++--------------------+------------+
+|invalid-name        |6           |
++--------------------+------------+
+|redefined-builtin   |2           |
++--------------------+------------+
+|unused-import       |1           |
++--------------------+------------+
+|unreachable         |1           |
++--------------------+------------+
+|superfluous-parens  |1           |
++--------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -10.88/10 (previous run: -10.88/10, +0.00)
+
