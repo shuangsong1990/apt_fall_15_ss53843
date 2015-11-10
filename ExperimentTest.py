@@ -29,11 +29,11 @@ class MyTestCase(unittest.TestCase):
 
   def test_t7(self):
     r1 = Experiment.largest([-3,0,2,10000,-99]) 
-    self.assertEqual(r1, -1)
+    self.assertEqual(r1, 10000)
 
   def test_t8(self):
     r1 = Experiment.largest([-3,0,50,-50]) 
-    self.assertEqual(r1, -1)
+    self.assertEqual(r1, 50)
 
   #def test_t7(self):
   #  self.assertRaises(ValueError, Experiment.largest, [])
